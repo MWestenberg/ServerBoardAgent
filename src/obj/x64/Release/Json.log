@@ -1,0 +1,35 @@
+﻿  Validating sources
+  Copying sources remotely to '192.168.56.101'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  Collector.cpp
+D:\Dev\Json\Json\Collector.h(31,29): warning : ‘Collector::m_ports’ will be initialized after [-Wreorder]
+D:\Dev\Json\Json\Collector.h(29,17): warning : ‘bool Collector::m_debug’ [-Wreorder]
+D:\Dev\Json\Json\Collector.h(29,17): warning :   bool m_debug = false;
+D:\Dev\Json\Json\Collector.h(29,17): warning :                  ^
+D:\Dev\Json\Json\Collector.h(46,2): warning : when initialized here [-Wreorder]
+D:\Dev\Json\Json\Collector.cpp(293,78): warning : conversion to ‘int’ from ‘double’ may alter its value [-Wconversion]
+D:\Dev\Json\Json\Collector.cpp(293,78): warning :    percentageFree = round((double(freePhysical) / double(totalPhysical)) * 100);
+D:\Dev\Json\Json\Collector.cpp(293,78): warning :                                                                               ^
+  Connect.cpp
+  main.cpp
+D:\Dev\Json\Json\Collector.h(31,29): warning : ‘Collector::m_ports’ will be initialized after [-Wreorder]
+D:\Dev\Json\Json\Collector.h(29,17): warning : ‘bool Collector::m_debug’ [-Wreorder]
+D:\Dev\Json\Json\Collector.h(29,17): warning :   bool m_debug = false;
+D:\Dev\Json\Json\Collector.h(29,17): warning :                  ^
+D:\Dev\Json\Json\Collector.h(46,2): warning : when initialized here [-Wreorder]
+  Linking objects
+D:\Dev\Json\Json\obj\x64\Release\Connect.o : error : In function `Connect::PostJson(nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>&)':
+Connect.cpp : error : (.text+0xc13): undefined reference to `curl_easy_init'
+Connect.cpp : error : (.text+0xc38): undefined reference to `curl_easy_setopt'
+Connect.cpp : error : (.text+0xc51): undefined reference to `curl_easy_setopt'
+Connect.cpp : error : (.text+0xc6a): undefined reference to `curl_easy_setopt'
+Connect.cpp : error : (.text+0xc83): undefined reference to `curl_easy_setopt'
+Connect.cpp : error : (.text+0xc9c): undefined reference to `curl_easy_setopt'
+D:\Dev\Json\Json\obj\x64\Release\Connect.o : error : Connect.cpp:(.text+0xcb5): more undefined references to `curl_easy_setopt' follow
+D:\Dev\Json\Json\obj\x64\Release\Connect.o : error : In function `Connect::PostJson(nlohmann::basic_json<std::map, std::vector, std::string, bool, long, unsigned long, double, std::allocator, nlohmann::adl_serializer>&)':
+Connect.cpp : error : (.text+0xcc2): undefined reference to `curl_easy_perform'
+Connect.cpp : error : (.text+0xcd2): undefined reference to `curl_easy_cleanup'
+Connect.cpp : error : (.text+0x1125): undefined reference to `curl_easy_setopt'
+collect2 : error : ld returned 1 exit status

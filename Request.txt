@@ -1,0 +1,35 @@
+{
+  X "APIKEY" : "D6E5D888-7251-11E5-9D70-FEFF819CDC9F",
+ X  "CPUTime" : "",
+  X "DateTime" : "",
+  X "DiskUsage" : {
+      "/" : "0%"
+   },
+  X "Domain" : "",
+ X  "EnvironmentVar" : "",
+  X "HOSTID" : "10:dd:b1:b5:25:24",
+  X "Hostname" : "iMark.local",
+  X "JSONTime" : "",
+  X "LocalIP" : [ "10.110.105.22" ],
+  X "MemTime" : "",
+   "Memory" : {
+    X  "FreePhysical" : "",
+    X  "FreeVirtual" : "",
+    X  "PCTPhysicalAvailable" : "0",
+    X  "TotalPhysical" : "",
+    X  "TotalVirtual" : ""
+   },
+   "Processor" : {
+    X  "Architecture" : "",
+    X  "AvgLoad" : "",
+    X  "Cores" : {
+         "0" : "0",
+         "1" : "0"
+      },
+      "History" : "",
+     X "Identifier" : "",
+     X "Level" : "",
+     X "Revision" : ""
+   },
+   X"TCP" : null
+}

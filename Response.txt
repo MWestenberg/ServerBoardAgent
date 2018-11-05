@@ -1,0 +1,10 @@
+{
+   "action" : "",
+   "config" : {
+      "environment" : "",
+      "tcpports" : "",
+      "updateinterval" : "5000"
+   },
+   "debug" : "",
+   "result" : "T"
+}

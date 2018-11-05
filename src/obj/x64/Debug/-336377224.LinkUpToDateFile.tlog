@@ -1,0 +1,1 @@
+g++ -o "/root/projects/ServerboardAgent/bin/x64/Debug/ServerboardAgent" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /root/projects/ServerboardAgent/obj/x64/Debug/Collector.o /root/projects/ServerboardAgent/obj/x64/Debug/Connect.o /root/projects/ServerboardAgent/obj/x64/Debug/main.o -lcurl

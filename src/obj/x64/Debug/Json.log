@@ -1,0 +1,14 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (D:\Dev\ServerboardAgent\src\obj\x64\Debug\) contains files shared from another project (Json.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Validating sources
+  Copying sources remotely to '192.168.56.101'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  Collector.cpp
+D:\Dev\ServerboardAgent\src\Collector.cpp(343,78): warning : conversion to ‘int’ from ‘double’ may alter its value [-Wconversion]
+D:\Dev\ServerboardAgent\src\Collector.cpp(343,78): warning :    percentageFree = round((double(freePhysical) / double(totalPhysical)) * 100);
+D:\Dev\ServerboardAgent\src\Collector.cpp(343,78): warning :                                                                               ^
+  Connect.cpp
+  main.cpp
+  Linking objects
+  Json.vcxproj -> D:\Dev\ServerboardAgent\src\bin\x64\Debug\ServerboardAgent
