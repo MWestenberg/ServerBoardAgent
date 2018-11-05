@@ -15,7 +15,6 @@ static std::map<int, std::string> tcpPorts;
 void backgroundTask(bool debug = false) 
 {
 	do {
-		
 		{
 			Collector::WriteCPUHistory();
 		}
